@@ -1,14 +1,14 @@
 /* Estilo geral */
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #1e1e1e;
+    background-color: #ff0000;
     color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ff1c1c; /* Vermelho marcante da Fórmula 1 */
+    background-color: #ff0000; /* Vermelho marcante da Fórmula 1 */
     color: white;
     text-align: center;
     padding: 20px;
