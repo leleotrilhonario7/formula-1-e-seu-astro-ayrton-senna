@@ -1,131 +1,57 @@
-/* Estilo geral */
-body {
-    font-family: 'Lato', sans-serif;
-    background-color: #1e1e1e;
-    color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trajeto Para Chegar a Formula 1 - Formula 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Trajeto Para Chegar a Formula 1</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="formula-1-e-suas-equipes.html">Formula 1 e suas equipes</a></li>
+                <li><a href="historia-do-ayrton-senna.html">Historia Do Ayrton Senna</a></li>
+                <li><a href="trajeto-para-chegar-a-formula-1.html">Trajeto para chegar a Formula 1</a></li>
+            </ul>
+        </nav>
+    </header>
 
-header {
-    background-color: #ff1c1c; /* Vermelho marcante da Fórmula 1 */
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
+    <main>
+        <section>
+            <h2>A Formula 1 como Chegar lá</h2>
+            <p>A Formula 1 é um esporte muito caro, tendo apenas dois pilotos por equipe, fazendo com que seja muito difícil correr na Formula 1. E hoje você vai ver as etapas para chegar na tão sonhada Formula 1:</p>
+            
+            <div class="videos">
+                <div class="video">
+                    <div class="video-container">
+                        <img src="capa-video1.jpg" alt="Capa do vídeo" class="video-cover">
+                        <iframe src="https://www.youtube.com/embed/0na7rQrVCbQ?si=L6da2a1agSw1_a-W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <p>Explicação das categorias até chegar à Formula 1.</p>
+                </div>
+                <div class="video">
+                    <div class="video-container">
+                        <img src="capa-video2.jpg" alt="Capa do vídeo" class="video-cover">
+                        <iframe src="https://www.youtube.com/embed/HbjXqrUCS_U?si=vcCr9xp2GIiTV2xq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <p>O vídeo explica até quantos anos dá para chegar à Formula 1.</p>
+                </div>
+                <div class="video">
+                    <div class="video-container">
+                        <img src="capa-video3.jpg" alt="Capa do vídeo" class="video-cover">
+                        <iframe src="" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-header h1 {
-    font-size: 3em;
-    font-weight: bold;
-    margin: 0;
-    letter-spacing: 2px;
-}
-
-nav {
-    background-color: #262626; /* Cinza escuro */
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #ffcc00; /* Amarelo inspirado nas bandeiras da Fórmula 1 */
-}
-
-.main-content {
-    padding: 40px;
-    text-align: center;
-}
-
-.main-content h2 {
-    color: #ffcc00; /* Título com destaque em amarelo */
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.main-content p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-
-/* Estilo dos vídeos */
-.video-container {
-    position: relative;
-    width: 560px;
-    height: 315px;
-    margin: 0 auto 20px; /* Centraliza e espaça os vídeos */
-}
-
-.video-cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: blur(5px);
-    transition: filter 0.3s;
-    z-index: 1; /* Manter a imagem embaixo do iframe */
-}
-
-.video-container:hover .video-cover {
-    filter: blur(0);
-}
-
-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    z-index: 2; /* Manter o iframe acima da imagem */
-}
-
-button {
-    background-color: #ff1c1c;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    font-size: 1.1em;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #ffcc00;
-}
-
-footer {
-    background-color: #1a1a1a;
-    color: #bbbbbb;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9em;
-}
-
-footer a {
-    color: #ffcc00;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: white;
-}
-
+    <footer>
+        <p>&copy; 2024 Formula 1</p>
+    </footer>
+</body>
+</html>
